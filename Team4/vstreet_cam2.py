@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+ #! /usr/bin/env python3
 
 # Copyright(c) 2017 Intel Corporation.
 # License: MIT See LICENSE file in root directory.
@@ -34,13 +34,17 @@ gn_mean = [0., 0., 0.]
 gn_labels = [""]
 
 # for title bar of GUI window
-cv_window_name = 'stream_ty_gn - Q to quit'
+cv_window_name1 = 'stream_ty_gn - Q to quit 1'
+cv_window_name2 = 'stream_ty_gn - Q to quit 2'
+cv_window_name3 = 'stream_ty_gn - Q to quit 3'
 
-actual_frame_width = 0
-actual_frame_height = 0
+
+
+actual_frame_width = 960
+actual_frame_height = 540
 
 DISPLAY_WIDTH = 960
-DISPLAY_HEIGHT = 540
+DISPLAY_HEIGHT =540
 
 ############################################################
 # Tuning variables
@@ -529,7 +533,9 @@ def main():
 
     print('Starting GUI, press Q to quit')
 
-    cv2.namedWindow(cv_window_name)
+    cv2.namedWindow(cv_window_name1)
+    cv2.namedWindow(cv_window_name2)
+    cv2.namedWindow(cv_window_name3)
     cv2.waitKey(1)
 
     TY_MAX_IOU = 0.15
@@ -537,12 +543,12 @@ def main():
 
     while (True):
         while (True):
-            video_device1 = cv2.VideoCapture(0)
+            video_device1 = cv2.VideoCapture(3)
 
 
-            actual_frame_width1 = video_device1.get(cv2.CAP_PROP_FRAME_WIDTH)
-            actual_frame_height1 = video_device1.get(cv2.CAP_PROP_FRAME_HEIGHT)
-            print ('actual video resolution: ' + str(actual_frame_width1) + ' x ' + str(actual_frame_height1))
+            #actual_frame_width1 = video_device1.get(cv2.CAP_PROP_FRAME_WIDTH)
+            #actual_frame_height1 = video_device1.get(cv2.CAP_PROP_FRAME_HEIGHT)
+            print ('actual video resolution: ' + str(actual_frame_width) + ' x ' + str(actual_frame_height))
 
             if ((video_device1 == None) or (not video_device1.isOpened())):
                 print ('Could not open video device1.  Make sure file exists:')
@@ -550,11 +556,11 @@ def main():
                 print ('Also, if you installed python opencv via pip or pip3 you')
                 print ('need to uninstall it and install from source with -D WITH_V4L=ON')
                 print ('Use the provided script: install-opencv-from_source.sh')
-            video_device2 = cv2.VideoCapture(1)
+            video_device2 = cv2.VideoCapture(4)
 
-            actual_frame_width2 = video_device2.get(cv2.CAP_PROP_FRAME_WIDTH)
-            actual_frame_height2 = video_device2.get(cv2.CAP_PROP_FRAME_HEIGHT)
-            print ('actual video resolution: ' + str(actual_frame_width2) + ' x ' + str(actual_frame_height2))
+            #actual_frame_width2 = video_device2.get(cv2.CAP_PROP_FRAME_WIDTH)
+            #actual_frame_height2 = video_device2.get(cv2.CAP_PROP_FRAME_HEIGHT)
+            print ('actual video resolution: ' + str(actual_frame_width) + ' x ' + str(actual_frame_height))
 
             if ((video_device2 == None) or (not video_device2.isOpened())):
                 print ('Could not open video device2.  Make sure file exists:')
@@ -562,11 +568,11 @@ def main():
                 print ('Also, if you installed python opencv via pip or pip3 you')
                 print ('need to uninstall it and install from source with -D WITH_V4L=ON')
                 print ('Use the provided script: install-opencv-from_source.sh')
-            video_device3 = cv2.VideoCapture(2)
+            video_device3 = cv2.VideoCapture(5)
 
-            actual_frame_width3 = video_device3.get(cv2.CAP_PROP_FRAME_WIDTH)
-            actual_frame_height3 = video_device3.get(cv2.CAP_PROP_FRAME_HEIGHT)
-            print ('actual video resolution: ' + str(actual_frame_width3) + ' x ' + str(actual_frame_height3))
+            #actual_frame_width3 = video_device3.get(cv2.CAP_PROP_FRAME_WIDTH)
+            #actual_frame_height3 = video_device3.get(cv2.CAP_PROP_FRAME_HEIGHT)
+            print ('actual video resolution: ' + str(actual_frame_width) + ' x ' + str(actual_frame_height))
 
             if ((video_device3 == None) or (not video_device3.isOpened())):
                 print ('Could not open video device3.  Make sure file exists:')
@@ -601,14 +607,7 @@ def main():
                 # then convert to float32, normalize (divide by 255),
                 # and finally convert to float16 to pass to LoadTensor as input
                 # for an inference
-                input_image = np.ones((TY_NETWORK_IMAGE_WIDTH, TY_NETWORK_IMAGE_HEIGHT,3), dtype=np.uint8)
-                ret1=cv2.resize(input_image1,(448,140),cv2.INTER_CUBIC)
-                ret2=cv2.resize(input_image2,(448,140),cv2.INTER_CUBIC)
-                ret3=cv2.resize(input_image3,(448,140),cv2.INTER_CUBIC)
-                input_image[0:140,0:448]=ret1[0:140,0:448]
-                input_image[140:280,0:448]=ret2[0:140,0:448]
-                input_image[280:420,0:448]=ret3[0:140,0:448]
-                input_image = cv2.resize(input_image, (TY_NETWORK_IMAGE_WIDTH, TY_NETWORK_IMAGE_HEIGHT), cv2.INTER_CUBIC)
+                input_image1 = cv2.resize(input_image1, (TY_NETWORK_IMAGE_WIDTH, TY_NETWORK_IMAGE_HEIGHT), cv2.INTER_CUBIC)
                 #ret1=cv2.resize(input_image1,(300,100),cv2.INTER_LINEAR)
                 #ret2=cv2.resize(input_image2,(300,100),cv2.INTER_LINEAR)
                 #ret3=cv2.resize(input_image3,(300,100),cv2.INTER_LINEAR)
@@ -617,38 +616,121 @@ def main():
                 #input_image[200:300,0:300]=ret3[0:100,0:300]
 
                 # save a display image as read from video device.
-                display_image = input_image.copy()
+                display_image1 = input_image1.copy()
 
                 # modify input_image for TinyYolo input
-                input_image = input_image.astype(np.float32)
-                input_image = np.divide(input_image, 255.0)
+                input_image1 = input_image1.astype(np.float32)
+                input_image1 = np.divide(input_image1, 255.0)
 
                 # Load tensor and get result.  This executes the inference on the NCS
-                ty_graph.LoadTensor(input_image.astype(np.float16), 'user object')
+                ty_graph.LoadTensor(input_image1.astype(np.float16), 'user object')
                 output, userobj = ty_graph.GetResult()
 
                 # filter out all the objects/boxes that don't meet thresholds
-                filtered_objs = filter_objects(output.astype(np.float32), input_image.shape[1], input_image.shape[0])
+                filtered_objs = filter_objects(output.astype(np.float32), input_image1.shape[1], input_image1.shape[0])
 
-                get_googlenet_classifications(gn_graph, display_image, filtered_objs)
+                get_googlenet_classifications(gn_graph, display_image1, filtered_objs)
 
                 # check if the window is visible, this means the user hasn't closed
                 # the window via the X button
-                prop_val = cv2.getWindowProperty(cv_window_name, cv2.WND_PROP_ASPECT_RATIO)
+                prop_val = cv2.getWindowProperty(cv_window_name1, cv2.WND_PROP_ASPECT_RATIO)
                 if (prop_val < 0.0):
                     end_time = time.time()
                     exit_app = True
                     break
 
-                overlay_on_image(display_image, filtered_objs)
+
+                overlay_on_image(display_image1, filtered_objs)
 
                 # resize back to original size so image doesn't look squashed
                 # It might be better to resize the boxes to match video dimensions
                 # and overlay them directly on the video image returned from video device.
-                display_image = cv2.resize(display_image, (TY_NETWORK_IMAGE_WIDTH, TY_NETWORK_IMAGE_HEIGHT),
-                                           cv2.INTER_CUBIC)
+                display_image1 = cv2.resize(display_image1, (TY_NETWORK_IMAGE_WIDTH, TY_NETWORK_IMAGE_HEIGHT),cv2.INTER_CUBIC)
+
+                input_image2 = cv2.resize(input_image2, (448, 448), cv2.INTER_CUBIC)
+                #ret1=cv2.resize(input_image1,(300,100),cv2.INTER_LINEAR)
+                #ret2=cv2.resize(input_image2,(300,100),cv2.INTER_LINEAR)
+                #ret3=cv2.resize(input_image3,(300,100),cv2.INTER_LINEAR)
+                #input_image[0:100,0:300]=ret1[0:100,0:300]
+                #input_image[100:200,0:300]=ret2[0:100,0:300]
+                #input_image[200:300,0:300]=ret3[0:100,0:300]
+
+                # save a display image as read from video device.
+                #display_image2 = input_image2.copy()
+
+                # modify input_image for TinyYolo input
+                #input_image2 = input_image2.astype(np.float32)
+                #input_image2 = np.divide(input_image2, 255.0)
+
+                # Load tensor and get result.  This executes the inference on the NCS
+                #ty_graph.LoadTensor(input_image2.astype(np.float16), 'user object')
+                #output, userobj = ty_graph.GetResult()
+
+                # filter out all the objects/boxes that don't meet thresholds
+                #filtered_objs = filter_objects(output.astype(np.float32), input_image2.shape[1], input_image1.shape[0])
+
+                #get_googlenet_classifications(gn_graph, display_image2, filtered_objs)
+
+                # check if the window is visible, this means the user hasn't closed
+                # the window via the X button
+                #prop_val = cv2.getWindowProperty(cv_window_name2, cv2.WND_PROP_ASPECT_RATIO)
+                #if (prop_val < 0.0):
+                    #end_time = time.time()
+                    #exit_app = True
+                    #break
+
+
+                #overlay_on_image(display_image2, filtered_objs)
+
+                # resize back to original size so image doesn't look squashed
+                # It might be better to resize the boxes to match video dimensions
+                # and overlay them directly on the video image returned from video device.
+                #display_image2 = cv2.resize(display_image2, (TY_NETWORK_IMAGE_WIDTH, TY_NETWORK_IMAGE_HEIGHT),cv2.INTER_CUBIC)
+
+                input_image3 = cv2.resize(input_image3, (448, 448), cv2.INTER_CUBIC)
+                #ret1=cv2.resize(input_image1,(300,100),cv2.INTER_LINEAR)
+                #ret2=cv2.resize(input_image2,(300,100),cv2.INTER_LINEAR)
+                #ret3=cv2.resize(input_image3,(300,100),cv2.INTER_LINEAR)
+                #input_image[0:100,0:300]=ret1[0:100,0:300]
+                #input_image[100:200,0:300]=ret2[0:100,0:300]
+                #input_image[200:300,0:300]=ret3[0:100,0:300]
+
+                # save a display image as read from video device.
+                #display_image3 = input_image3.copy()
+
+                # modify input_image for TinyYolo input
+                #input_image3 = input_image3.astype(np.float32)
+                #input_image3 = np.divide(input_image3, 255.0)
+
+                # Load tensor and get result.  This executes the inference on the NCS
+                #ty_graph.LoadTensor(input_image3.astype(np.float16), 'user object')
+                #output, userobj = ty_graph.GetResult()
+
+                # filter out all the objects/boxes that don't meet thresholds
+                #filtered_objs = filter_objects(output.astype(np.float32), input_image3.shape[1], input_image1.shape[0])
+
+                #get_googlenet_classifications(gn_graph, display_image3, filtered_objs)
+
+                # check if the window is visible, this means the user hasn't closed
+                # the window via the X button
+                #prop_val = cv2.getWindowProperty(cv_window_name3, cv2.WND_PROP_ASPECT_RATIO)
+                #if (prop_val < 0.0):
+                    #end_time = time.time()
+                    #exit_app = True
+                    #break
+
+
+                #overlay_on_image(display_image3, filtered_objs)
+
+                # resize back to original size so image doesn't look squashed
+                # It might be better to resize the boxes to match video dimensions
+                # and overlay them directly on the video image returned from video device.
+                #display_image3 = cv2.resize(display_image3, (TY_NETWORK_IMAGE_WIDTH, TY_NETWORK_IMAGE_HEIGHT),cv2.INTER_CUBIC)
                 # update the GUI window with new image
-                cv2.imshow(cv_window_name, display_image)
+                cv2.imshow(cv_window_name1, display_image1)
+                cv2.imshow(cv_window_name2, input_image2)
+                cv2.imshow(cv_window_name3, input_image3)
+
 
                 raw_key = cv2.waitKey(1)
                 if (raw_key != -1):
@@ -666,11 +748,11 @@ def main():
             video_device1.release()
             video_device2.release()
             video_device3.release()
-
             if (exit_app):
                 break
         if (exit_app):
             break
+
 
     # clean up tiny yolo
     ty_graph.DeallocateGraph()
