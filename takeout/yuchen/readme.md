@@ -33,5 +33,6 @@ yc2
 
 # 功能验证
 yc3  
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/屏幕快照%202019-06-28%2021.13.36.png)
 
 # 总结与展望
