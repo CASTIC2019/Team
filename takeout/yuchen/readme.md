@@ -30,6 +30,7 @@ yc1
 
 # 系统调试记录
 yc2  
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/屏幕快照%202019-06-28%2021.17.01.png)
 
 # 功能验证
 yc3  
