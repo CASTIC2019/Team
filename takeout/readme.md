@@ -37,8 +37,10 @@ yc1
 
 # 软件部分设计
 qt2
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190628213332.jpg)
 # 电路部分设计
 qt3
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190628213351.jpg)
 # 系统调试记录
 yc2  
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/屏幕快照%202019-06-28%2021.17.01.png)
