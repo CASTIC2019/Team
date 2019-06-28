@@ -1,6 +1,3 @@
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/left_arm_CAD_model.jpg)
-
-
 # 问卷问题  
 
 1 你有害怕过 在接收外卖时会有危险吗
@@ -38,8 +35,11 @@
 
 # 系统功能设计
 qt1
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/WechatIMG221.jpeg)
+
 # 机械结构设计
 yc1  
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/WechatIMG84.png)
 
 # 软件部分设计
 qt2
@@ -47,8 +47,10 @@ qt2
 qt3
 # 系统调试记录
 yc2  
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/屏幕快照%202019-06-28%2021.17.01.png)
 
 # 功能验证
 yc3  
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/屏幕快照%202019-06-28%2021.13.36.png)
 
 # 总结与展望
