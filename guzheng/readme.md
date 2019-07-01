@@ -29,7 +29,9 @@ JM
 
 TT
 
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/WechatIMG221.jpeg)
+![Aaron Swartz]
+https://github.com/CASTIC2019/Team/blob/master/guzheng/20190701_154134.jpg
+
 # 机械结构设计
 
 JM
