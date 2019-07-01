@@ -38,7 +38,6 @@ JM
 
 # 软件部分设计
 
-TT
 
 
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190628213332.jpg)
