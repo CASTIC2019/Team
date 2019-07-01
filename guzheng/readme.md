@@ -29,8 +29,7 @@ JM
 
 TT
 
-![Aaron Swartz]
-(https://github.com/CASTIC2019/Team/blob/master/guzheng/20190701_154134.jpg)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/guzheng/20190701_154134.jpg)
 
 # 机械结构设计
 
@@ -42,8 +41,7 @@ JM
 
 
 
-![Aaron Swartz]
-(https://github.com/CASTIC2019/Team/blob/master/guzheng/20190701_154134.jpg)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/guzheng/20190701_154134.jpg)
 
 # 系统调试记录
 
