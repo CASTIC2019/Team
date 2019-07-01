@@ -30,6 +30,8 @@ A.一人餐 B.两人餐 C.多人餐
 4.作品的创新特点是 自动开关锁；监控功能保障了外卖用户的安全；且可以检测食品温度来进行保温   
 5.此外，本作品还有太阳能充电等功能  
 
+
+
 # 系统功能设计
 qt1
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/WechatIMG221.jpeg)
