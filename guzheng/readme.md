@@ -40,7 +40,8 @@ JM
 
 
 
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190628213332.jpg)
+![Aaron Swartz]
+https://github.com/CASTIC2019/Team/blob/master/guzheng/20190701_154134.jpg
 # 电路部分设计
 
 TT
