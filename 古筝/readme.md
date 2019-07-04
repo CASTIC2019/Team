@@ -35,7 +35,7 @@ TT
 
 JM
 
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/WechatIMG84.png)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/%E5%8F%A4%E7%AD%9D/%E6%9C%BA%E6%A2%B0%E7%BB%93%E6%9E%84.png)
 
 # 软件部分设计
 
