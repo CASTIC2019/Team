@@ -34,9 +34,11 @@ Basicly, a display. This part of the product can remind the user, when the takeo
 
 # 3.RESULTS AND DISCUSSION  
 ## 3.1 Assessment of Graph  
-After the research we 
+Face recognition
+automatic lock
 
 ## 3.2 Assessment of Application  
+Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.
 
 # 4.CONCLUSION  
 
