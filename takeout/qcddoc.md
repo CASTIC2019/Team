@@ -3,10 +3,10 @@
 ## 1.1 background  
 According to the investigation 10 percent of who order the takeout are in danger
 The rapid evolution of the Chinese express industry has largely promote the development of the food delivery sevices in the catering industry. 
-Thus, plenty of the new food delivery app was lauched to the market and now have owned millions of the users.
-(data)
-Whereas it also result in an increase in the concerns about the security problems exist during the food delivery services process.
-(data)
+Thus, plenty of the new food delivery app was lauched to the market and now have owned millions of the users.  
+(data).  
+Whereas it also result in an increase in the concerns about the security problems exist during the food delivery services process.  
+(data).  
   
 One of the main reasons why users choose to order a food delivery is due to the convenience and time-saving since the it allow users to just wait for the food to come.
 The common process of a user use the food delivery app to order a delivery services includes choosing items on the app, writing down the address, and waiting for the arrival of the food. The app will randomly release the delivery tasks to the deliveryman and also provide uses’ information including phone numbers, names, and the addresses.
