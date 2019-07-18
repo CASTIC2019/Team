@@ -139,19 +139,7 @@ while(True):
     print(gesture)
 
         
-#################################切歌#####################################
-    if gesture=='next_song':
-        count3=count3+1
-        if count3==30:
-            keybd_event(18)                #ALT+RIGHT
-            keybd_event(39) 
-                    
-        
-    elif gesture=='start_stop' and flag_stop==1:
-        count4=count4+1
-        if count4==30:
-            keybd_event(18)                #ALT+numb‘0’
-            keybd_event(96)
+
     key = cv2.waitKey(5) & 0xff
     #Esc键退出
     if key == 27:
