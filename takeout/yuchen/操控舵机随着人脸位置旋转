@@ -1,0 +1,23 @@
+##操控舵机随着人脸位置旋转
+#include <Servo.h>
+
+long item;
+Servo servo_8;
+
+void setup()
+{
+  Serial.begin(9600);
+  item = 0;
+  servo_8.attach(8);
+}
+
+void loop()
+{
+  if (Serial.available() > 0) {
+    item = String(Serial.readString()).toInt();
+    servo_8.write(item);
+    delay(100);
+
+  }
+
+}
