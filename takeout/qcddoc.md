@@ -22,6 +22,7 @@ For the food delivery services, since the food cannot be stored as other normal 
 
 The most common methods that people use to prevent the direct contact is to command deliverymen to put the products outside their doors or at the public places in their living buildings, and then go out and pick up the food after the deliverymen have left. Whereas this would also remain some potential problems. For instance, people cannot make sure that the deliverymen have really left or are still wandering nearby; the food can be stolen away; and if people don’t pick up their food immediately, the food would lose the original quality.
 
+Currently, some buildings have already started to use the receiving boxes to help the residents store their food and products from the delivery services. Those boxes which can be locked after the products are put in can solve many problems existed
 ### 1.2.2  Existing approach and their limitation  
 
 
