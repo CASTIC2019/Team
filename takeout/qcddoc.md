@@ -13,7 +13,7 @@ The common process of a user use the food delivery app to order a delivery servi
 
 The safety problems may occur during the process when the deliveryman give the food to the users. Those problems mostly are the violation from the deliveryman to the users, mostly come from such private environments of the transitions and the exposure of the users private information. Other problems including the food preservation and the stealing problems may also exist after the food has been delivered to the users’ ordering places.
 
-In this project, we will specially focus on designing an high-tech receiving which possess the techniques of the monitoring, temperature-controlling, and the anti-stealing, which would help to prevent the problems mentioned above and provide the users with a safer and more convenient food delivery experiences.
+In this project, we will specially focus on designing an high-tech receiving boxes which possess the techniques of the monitoring, temperature-controlling, and the anti-stealing, which would help to prevent the problems mentioned above and provide the users with a safer and more convenient food delivery experiences.
 
 ### 1.2.1 CURRENT APPROACH  
 Some invented a box for takeout to be put in, but this still cannot prevent reciever from danger
