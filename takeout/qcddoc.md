@@ -35,7 +35,7 @@ The product has insulation to keep the food at the right temperature so the user
 The alarm system can first detect the position to know when to open the case for food to be put in. Also, it is able to call the police if the delivery is around too long.
 
 ## 2.3 Face recognition device
-This device will identify the position of the delivery and provide realtime data to the display and the alarm system.
+This device will identify the position of the delivery and provide realtime data to the display and the alarm system. This device will aid the ability of detecting if the delivery man is around. The device will locate the face and add a rectangle surrounding it. Then, a counter(able to alter at any time) is set to count the time of the delivery man in front of the door. In a normal context, a circle will appear as well as notifying the user, when the face recognition device finds the absence of the delivery man. On the contrary, if the man stands there for a long time, the alarm will be set on. An additional function will be to identify whether the person standing is a family member or not. This function will help knowing if the person is safe to the user or not. Then, the alarm would not trigger, if a family memeber is standing in front of the door. 
 
 ## 2.4 Processing  
 At first, when the user has ordered the takeout, this section will track down the delivery and will also help the detection of the alarm system
