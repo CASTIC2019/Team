@@ -1,6 +1,7 @@
 # 1.Introduction  
 
 ## 1.1 background  
+
 According to the investigation 10 percent of who order the takeout are in danger
 The rapid evolution of the Chinese express industry has largely promote the development of the food delivery sevices in the catering industry. 
 Thus, plenty of the new food delivery app was lauched to the market and now have owned millions of the users.  
@@ -16,7 +17,12 @@ The safety problems may occur during the process when the deliveryman give the f
 In this project, we will specially focus on designing an high-tech receiving box which possess the techniques of the monitoring, temperature-controlling, and the anti-stealing, which would help to prevent the problems mentioned above and provide the users with a safer and more convenient food delivery experiences.
 
 ### 1.2.1 CURRENT APPROACH  
-Some invented a box for takeout to be put in, but this still cannot prevent reciever from danger
+
+For the food delivery services, since the food cannot be stored as other normal goods, the products must be directly given to users face to face. This is because that the food tends to get metamorphism or lose its original quality. However, this face to face condition would carry out many potential dangers for both users and deliverymen. Thus, the most effective method to reduce the problems is to prevent the direct contact between the users and the deliveryman. 
+
+The most common methods that people use to prevent the direct contact is to command deliverymen to put the products outside their doors or at the public places in their living buildings, and then go out and pick up the food after the deliverymen have left. Whereas this would also remain some potential problems. For instance, people cannot make sure that the deliverymen have really left or are still wandering nearby; the food can be stolen away; and if people don’t pick up their food immediately, the food would lose the original quality.
+
+With an high-tech receiving box, a large extend of these problems would be mitigated, as this box possess the techniques of the monitoring, temperature-controlling, and the anti-stealing.
 
 ### 1.2.2  Existing approach and their limitation  
 
