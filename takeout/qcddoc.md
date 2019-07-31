@@ -35,7 +35,7 @@ By placing a box out side the door so that the user do not need to get the takeo
 Our product can mainly be separated into three parts: frame, software, and hardware. Frame is basically the box that will contain the component. It will also protect the segments from damages by the rain and wind. Software, the most elaborated part, is where every thing else is bond together. Arduino helps with the controlling of the hardware and send data to the python code. Then the python code will work out the what will be done next and send data back for further operation. This continues in a loop. Last, the hardware has its job to collect data and display it to the user. This part consists of the output and input device. The buzzer to notify to user, the button to open the box, the insulation to keep food at its optimum temperature. Not a single part can be omitted. Now, we will be introducing you to the hardwares.
 
 ## 2.2 Insulation 
-The product has insulation to keep the food at the right temperature so the user can get the food at its optimum condition.
+We found out that many might not be able to get their food on time.
 
 ### 2.2.1 Alarm 
 The alarm system can first detect the position to know when to open the case for food to be put in. Also, it is able to call the police if the delivery is around too long.
