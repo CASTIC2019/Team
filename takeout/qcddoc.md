@@ -50,6 +50,8 @@ At first, when the user has ordered the takeout, this section will track down th
 ## 2.5 User Interface  
 Basicly, a display. This part of the product can remind the user, when the takeout is in the box and has not been taken.
 
+## 2.6 Lock  
+
 # 3.RESULTS AND DISCUSSION  
 ## 3.1 Assessment of Graph  
 Face recognition
