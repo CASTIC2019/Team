@@ -32,6 +32,7 @@ Our objective is to provide our comsumer the safest way to get a takeout
 # 2.METHODOLOGY  
 ## 2.1 OVERVIEW 
 By placing a box out side the door so that the user do not need to get the takeout when the delivery is around. 
+Our product can mainly be separated into three parts: frame, software, and hardware. Frame is basically the box that will contain the component. It will also protect the segments from damages by the rain and wind. Software, the most elaborated part, is where every thing else is bond together. Arduino helps with the controlling of the hardware and send data to the python code. Then the python code will work out the what will be done next and send data back for further operation. This continues in a loop. Last, the hardware has its job to collect data and display it to the user. This part consists of the output and input device. The buzzer to notify to user, the button to open the box, the insulation to keep food at its optimum temperature. Not a single part can be omitted. 
 
 ## 2.2 Hardware  
 The product has insulation to keep the food at the right temperature so the user can get the food at its optimum condition.
