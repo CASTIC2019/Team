@@ -23,11 +23,11 @@ For the food delivery services, since the food cannot be stored as other normal 
 The most common methods that people use to prevent the direct contact is to command deliverymen to put the products outside their doors or at the public places in their living buildings, and then go out and pick up the food after the deliverymen have left. Whereas this would also remain some potential problems. For instance, people cannot make sure that the deliverymen have really left or are still wandering nearby; the food can be stolen away; and if people don’t pick up their food immediately, the food would lose the original quality.
 
 Currently, some buildings have already started to use the receiving boxes to help the residents store their food and products from the delivery services. Those boxes which can be locked after the products are put in can solve many problems existed
-### 1.2.2  Existing approach and their limitation  
 
+However, there are limitations to the this solution. Those, who buy food takeout have an obvious desire to not go outside and get the food, because the wheather is too harsh or they do not have the time. If the food were to be placed outside, which takes a long time walk to, the main problem is not solved. The person still has to go out. Up to this extent, a better solution seem to be very crucial and desirable. Our approach is to place a box beside the door of our user, so they do not need to walk out the door. Also, forbid the delivery man from harming our user.
 
 ## 1.3 Objective  
-Our objective is to provide our comsumer the safest way to get a takeout
+Our objective is to provide our comsumer the safest way to get a food takeout
 
 # 2.METHODOLOGY  
 ## 2.1 OVERVIEW 
