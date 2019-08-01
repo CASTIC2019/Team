@@ -52,7 +52,7 @@ In this part we used a module in pyhton called the cv2. Its main function is to 
 ## 2.4 Processing  
 At first, when the user has ordered the takeout, this section will track down the delivery and will also help the detection of the alarm system
 
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/sw flowchart.png)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/swflowchart.png)
 
 ## 2.5 User Interface  
 Basicly, a display. This part of the product can remind the user, when the takeout is in the box and has not been taken.
