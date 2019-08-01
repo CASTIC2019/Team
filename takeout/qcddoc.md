@@ -29,6 +29,7 @@ However, there are limitations to the this solution. Those, who buy food takeout
 ## 1.3 Objective  
 Our objective is to provide our comsumer the safest way to get a food takeout
 
+![Aaron Swartz](takeout/qitian/system.png)
 # 2.METHODOLOGY  
 ## 2.1 OVERVIEW 
 By placing a box out side the door so that the user do not need to get the takeout when the delivery is around. 
