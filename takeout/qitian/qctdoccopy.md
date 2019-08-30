@@ -40,12 +40,12 @@ Our objective is to provide our comsumer the safest way to get a food takeout
 By placing a box out side the door so that the user do not need to get the takeout when the delivery is around. 
 Our product can mainly be separated into three parts: frame, software, and hardware. Frame is basically the box that will contain the component. It will also protect the segments from damages by the rain and wind. Software, the most elaborated part, is where every thing else is bond together. Arduino helps with the controlling of the hardware and send data to the python code. Then the python code will work out the what will be done next and send data back for further operation. This continues in a loop. Last, the hardware has its job to collect data and display it to the user. This part consists of the output and input device. The buzzer to notify to user, the button to open the box, the insulation to keep food at its optimum temperature. Not a single part can be omitted. Now, we will be introducing you to the hardwares.
 
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/diagram4.jpg)
-| --- | ---- | Out black | Out red |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| left | ---- | GND | 12v | heating | Red light |
-| right | ---- | 12v | GND | cooling | Green light |
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/hardware.png)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/diagram4.jpg)  
+| ---- | ---- | Out black | Out red |  
+| ---- | ---- | ---- | ---- | ---- | ---- |  
+| left | ---- | GND | 12v | heating | Red light |  
+| right | ---- | 12v | GND | cooling | Green light |  
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/hardware.png)  
 
 ## 2.2 Insulation 
 We found out that many might not be able to get their food on time. So we think it might be a good idea to make two seperate space, one cold and one hot as many might also buy a drink or ice-cream with their food. Envision, putting a cold drink on a heating element or putting warm food into a refrigerator. spoiling the food! The device will identify which section, heating element or refrigerator, is needed for the difference in food. Then merely open the section needed so there is less waste of energy. When the box has food in it, the door closes and locks in order to prevent strangers from stealing the food.现在是一个箱子，根据送来的食物信息决定冷热。Python根据网上订餐的食物名字决定启动加热器还是制冷器。
