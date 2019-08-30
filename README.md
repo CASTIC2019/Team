@@ -21,7 +21,7 @@ git push
 
 2. 技术背景
 
-Writage是一款word插件，下载网址为：http://www.writage.com/。
+Writage是一款word插件，下载网址为：http://www.writage.com/
 功能：支持markdown与word互相转换
 
 安装：
