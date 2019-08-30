@@ -82,5 +82,10 @@ We first laid out the ideal outcome of all situations, and tested with the box. 
 
 The result appeared to be what we had expected.  
 # 4.CONCLUSION  
-
+First, we are able to get the data from the takeout website and know when is the takeout going to arrive.
+Second, we have a web cam to recognize the face of the owner of the house or a stranger. By this the system is able to know when to open the lock and when to close it. 
+Third, when the food is in the box, we can detect to temperature and choose to turn on the heater or the cooler.
+Last, when the food is in the box the system can notify the user to get the food.
+However, we still need to upgrade the system by calculating the time of the arrival and turn on the heating/cooling before hand.
+So that, for example, when the ice cream arrives, the cooler is alreadily turned on and the temperature in the box is able to keep the ice-cream at its shape and no molten. 
 # 5.BIBLIOGRAPHY   
