@@ -29,8 +29,7 @@ A.一人餐 B.两人餐 C.多人餐
 5.此外，本作品还有太阳能充电等功能  
 
 # 系统功能设计
-
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/WechatIMG221.jpeg){:height="100px" width="100px"}
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/WechatIMG221.jpeg" width="25%" height="25%">
 
 # 机械结构设计
 yc1  
