@@ -40,7 +40,7 @@ Our objective is to provide our comsumer the safest way to get a food takeout
 By placing a box out side the door so that the user do not need to get the takeout when the delivery is around. 
 Our product can mainly be separated into three parts: frame, software, and hardware. Frame is basically the box that will contain the component. It will also protect the segments from damages by the rain and wind. Software, the most elaborated part, is where every thing else is bond together. Arduino helps with the controlling of the hardware and send data to the python code. Then the python code will work out the what will be done next and send data back for further operation. This continues in a loop. Last, the hardware has its job to collect data and display it to the user. This part consists of the output and input device. The buzzer to notify to user, the button to open the box, the insulation to keep food at its optimum temperature. Not a single part can be omitted. Now, we will be introducing you to the hardwares.
 
-<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/diagram4.jpg" width="75%" height="75%">
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/diagram4.jpg" width="65%" height="65%">
 
 | | Out black | Out red |  |  |  
 | ---- | ---- | ---- | ---- | ---- |
@@ -71,11 +71,11 @@ Basicly, a display. This part of the product can remind the user, when the takeo
 
 # 3.RESULTS AND DISCUSSION  
 ## 3.1 Assessment of Graph  
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/back.jpg)
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/front.jpg)
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/plan_view.jpg)
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/back.jpg" width="40%" height="40%"> 
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/front.jpg" width="40%" height="40%"> 
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/plan_view.jpg" width="40%" height="40%"> 
 Face recognition
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/face_recognition.png)
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/face_recognition.png" width="40%" height="40%"> 
 ## 3.2 Assessment of Application  
 Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.  
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/ideal_result.png)
