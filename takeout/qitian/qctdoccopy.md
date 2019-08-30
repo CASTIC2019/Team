@@ -78,7 +78,7 @@ Basicly, a display. This part of the product can remind the user, when the takeo
 Face recognition
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/face_recognition.png)
 ## 3.2 Assessment of Application  
-Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.
+Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.  
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/ideal_result.png)
 
 # 4.CONCLUSION  
