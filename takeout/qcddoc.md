@@ -63,12 +63,15 @@ At first, when the user has ordered the takeout, this section will track down th
 Basicly, a display. This part of the product can remind the user, when the takeout is in the box and has not been taken.
 添加图
 # 3.RESULTS AND DISCUSSION  
+整体照片
 ## 3.1 Assessment of Graph  
 Face recognition
 automatic lock
 
 ## 3.2 Assessment of Application  
 Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.
+致冷温度曲线绘制
+加热温度曲线绘制
 
 # 4.CONCLUSION  
 
