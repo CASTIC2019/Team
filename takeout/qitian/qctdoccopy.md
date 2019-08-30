@@ -79,7 +79,7 @@ Face recognition
 ## 3.2 Assessment of Application  
 <img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/ideal_result.png" width="90%" height="90%"> 
 We first laid out the ideal outcome of all situations, and tested with the box. We tested if the cooler or heater worked correctly by using a termometer.  
-
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/thermometer" width="80%" height="80%"> 
 The result appeared to be what we had expected.  
 # 4.CONCLUSION  
 First, we are able to get the data from the takeout website and know when is the takeout going to arrive.
