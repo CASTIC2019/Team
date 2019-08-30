@@ -2,11 +2,6 @@
 
 ## 1.1 background  
 
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
-
 According to the investigation 10 percent of who order the takeout are in danger
 The rapid evolution of the Chinese express industry has largely promote the development of the food delivery sevices in the catering industry. 
 Thus, plenty of the new food delivery app was lauched to the market and now have owned millions of the users.  
@@ -45,7 +40,7 @@ Our product can mainly be separated into three parts: frame, software, and hardw
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/hardware.png)
 
 ## 2.2 Insulation 
-We found out that many might not be able to get their food on time. So we think it might be a good idea to make two seperate space, one cold and one hot as many might also buy a drink or ice-cream with their food. Envision, putting a cold drink on a heating element or putting warm food into a refrigerator. spoiling the food! The device will identify which section, heating element or refrigerator, is needed for the difference in food. Then merely open the section needed so there is less waste of energy. When the box has food in it, the door closes and locks in order to prevent strangers from stealing the food.现在是一个箱子，根据送来的食物信息决定冷热。Python根据网上订餐的食物名字决定启动加热器还是制冷器。
+We found out that many might not be able to get their food on time. So we think it would be useful if the box can heat or freeze the food according to its type to store it for a long time. The Python system would get the name of the food and identify whether the food is cold or hot right after a user has commited a delivery service. Then the box would immediately start to work to either heat or freeze inside. When the food arrives, the box has probably already reach the most suitable temperature inside for the food. Deliveryman just need to touch the swich to unlock the box and put the food inside. When the box has food in it, the door closes and locks in order to prevent strangers from stealing the food.
 
 ### 2.2.1 Alarm 
 This device has two uses. First, as the delivery man will not knock te door, the user might not notice that the food is ready. When the Face recognition device founds out that there is no one out side the door. Then, the distance sensor checks that there is food in the box. The buzzer will buzz and the light turns on to notify the user that the food is ready and get it.
@@ -67,11 +62,9 @@ Basicly, a display. This part of the product can remind the user, when the takeo
 
 # 3.RESULTS AND DISCUSSION  
 ## 3.1 Assessment of Graph  
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/back.jpg)
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/front.jpg)
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/plan_view.jpg)
 Face recognition
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/face_recognition.png)
+automatic lock
+
 ## 3.2 Assessment of Application  
 Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.
 
