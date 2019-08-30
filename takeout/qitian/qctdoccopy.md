@@ -50,8 +50,7 @@ Our product can mainly be separated into three parts: frame, software, and hardw
 
 
 
-| | Out black | Out red |  |  |
-
+| 0 | Out black | Out red |  |  |
 | left | GND | 12v | heating | Red light |
 | right | 12v | GND | cooling | Green light |
 
