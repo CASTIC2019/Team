@@ -42,7 +42,7 @@ Our product can mainly be separated into three parts: frame, software, and hardw
 
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/diagram4.jpg) 
 
-|nu|Out black|Out red|
+|nu|out black|out red|
 |----|----|
 |34|ii|
 |9900|00900|
