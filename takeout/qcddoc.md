@@ -2,11 +2,6 @@
 
 ## 1.1 background  
 
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
-
 According to the investigation 10 percent of who order the takeout are in danger
 The rapid evolution of the Chinese express industry has largely promote the development of the food delivery sevices in the catering industry. 
 Thus, plenty of the new food delivery app was lauched to the market and now have owned millions of the users.  
@@ -52,7 +47,7 @@ This device has two uses. First, as the delivery man will not knock te door, the
 The second use is obiously to protect the user. If the face recognition detects that the delivery man is in front of the door too long, the device will predicate that he is dangerous. Furthermore, the device inform the user about the condition.
 
  # TBD by Yuchen, flow chart for arduino code here
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/flow%20chart.png)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/%E6%B5%8B%E6%B8%A9flow%20chart%20%E6%9B%B4%E6%96%B0.png)
 
 ## 2.3 Face recognition device
 In this part we used a module in pyhton called the cv2. Its main function is to identify faces in images and capture videos, using the its existing database. This device will identify the position of the delivery and provide realtime data to the display and the alarm system. This device will aid the ability of detecting if the delivery man is around. The device will locate the face and add a rectangle surrounding it. Then, a counter(able to alter at any time) is set to count the time of the delivery man in front of the door. In a normal context, a circle will appear as well as notifying the user, when the face recognition device finds the absence of the delivery man. On the contrary, if the man stands there for a long time, the alarm will be set on. An additional function will be to identify whether the person standing is a family member or not. This function will help knowing if the person is safe to the user or not. Then, the alarm would not trigger, if a family memeber is standing in front of the door. 
@@ -67,11 +62,7 @@ Basicly, a display. This part of the product can remind the user, when the takeo
 
 # 3.RESULTS AND DISCUSSION  
 ## 3.1 Assessment of Graph  
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/front.jpg)
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/back.jpg)
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/plan_view.jpg)
 Face recognition
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/face_recognition.png)
 automatic lock
 
 ## 3.2 Assessment of Application  
