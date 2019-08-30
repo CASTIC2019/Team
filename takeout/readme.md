@@ -30,7 +30,7 @@ A.一人餐 B.两人餐 C.多人餐
 
 # 系统功能设计
 qt1
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/WechatIMG221.jpeg)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/WechatIMG221.jpeg){:height="100px" width="400px"}
 # 机械结构设计
 yc1  
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/WechatIMG84.png)
