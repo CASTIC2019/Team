@@ -34,13 +34,13 @@ Our objective is to provide our comsumer the safest way to get a food takeout
 ## 2.1 OVERVIEW 
 By placing a box out side the door so that the user do not need to get the takeout when the delivery is around. 
 Our product can mainly be separated into three parts: frame, software, and hardware. Frame is basically the box that will contain the component. It will also protect the segments from damages by the rain and wind. Software, the most elaborated part, is where every thing else is bond together. Arduino helps with the controlling of the hardware and send data to the python code. Then the python code will work out the what will be done next and send data back for further operation. This continues in a loop. Last, the hardware has its job to collect data and display it to the user. This part consists of the output and input device. The buzzer to notify to user, the button to open the box, the insulation to keep food at its optimum temperature. Not a single part can be omitted. Now, we will be introducing you to the hardwares.
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/table.docx)
+
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/diagram4.jpg)
 
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/hardware.png)
 
 ## 2.2 Insulation 
-We found out that many might not be able to get their food on time. So we think it might be a good idea to make two seperate space, one cold and one hot as many might also buy a drink or ice-cream with their food. Envision, putting a cold drink on a heating element or putting warm food into a refrigerator. spoiling the food! The device will identify which section, heating element or refrigerator, is needed for the difference in food. Then merely open the section needed so there is less waste of energy. When the box has food in it, the door closes and locks in order to prevent strangers from stealing the food.  现在是一个箱子，根据送来的食物信息决定冷热。Python根据网上订餐的食物名字决定启动加热器还是制冷器。
+We found out that many might not be able to get their food on time. So we think it might be a good idea to make two seperate space, one cold and one hot as many might also buy a drink or ice-cream with their food. Envision, putting a cold drink on a heating element or putting warm food into a refrigerator. spoiling the food! The device will identify which section, heating element or refrigerator, is needed for the difference in food. Then merely open the section needed so there is less waste of energy. When the box has food in it, the door closes and locks in order to prevent strangers from stealing the food.
 
 ### 2.2.1 Alarm 
 This device has two uses. First, as the delivery man will not knock te door, the user might not notice that the food is ready. When the Face recognition device founds out that there is no one out side the door. Then, the distance sensor checks that there is food in the box. The buzzer will buzz and the light turns on to notify the user that the food is ready and get it.
@@ -51,8 +51,6 @@ The second use is obiously to protect the user. If the face recognition detects 
 
 ## 2.3 Face recognition device
 In this part we used a module in pyhton called the cv2. Its main function is to identify faces in images and capture videos, using the its existing database. This device will identify the position of the delivery and provide realtime data to the display and the alarm system. This device will aid the ability of detecting if the delivery man is around. The device will locate the face and add a rectangle surrounding it. Then, a counter(able to alter at any time) is set to count the time of the delivery man in front of the door. In a normal context, a circle will appear as well as notifying the user, when the face recognition device finds the absence of the delivery man. On the contrary, if the man stands there for a long time, the alarm will be set on. An additional function will be to identify whether the person standing is a family member or not. This function will help knowing if the person is safe to the user or not. Then, the alarm would not trigger, if a family memeber is standing in front of the door. 
-添加加树莓派的图
-添加人脸识别的程序照片
 
 ## 2.4 Processing  
 At first, when the user has ordered the takeout, this section will track down the delivery and will also help the detection of the alarm system
@@ -61,17 +59,14 @@ At first, when the user has ordered the takeout, this section will track down th
 
 ## 2.5 User Interface  
 Basicly, a display. This part of the product can remind the user, when the takeout is in the box and has not been taken.
-添加图
+
 # 3.RESULTS AND DISCUSSION  
-整体照片
 ## 3.1 Assessment of Graph  
 Face recognition
 automatic lock
 
 ## 3.2 Assessment of Application  
 Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.
-致冷温度曲线绘制
-加热温度曲线绘制
 
 # 4.CONCLUSION  
 
