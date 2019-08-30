@@ -37,7 +37,7 @@ Our product can mainly be separated into three parts: frame, software, and hardw
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/hardware.png)
 
 ## 2.2 Insulation 
-We found out that many might not be able to get their food on time. So we think it would be useful if the box can heat or freeze the food according to its type to store it for a long time. The Python system would get the name of the food and identify whether the food is cold or hot right after a user has commited a delivery service. Then the box would immediately start to work to either heat or freeze inside. When the food arrives, the box has probably already reach the most suitable temperature inside for the food. Deliveryman just need to touch the swich to unlock the box and put the food inside. When the box has food in it, the door closes and locks in order to prevent strangers from stealing the food.
+We found out that many might not be able to get their food on time. So we think it would be useful if the box can heat or freeze the food according to its type to store it for a long time. The Python system would get the name of the food and identify whether the food is cold or hot right after a user has commited a delivery service. Then the box would immediately start to work to either heat or cool inside. When the food arrives, the box has probably already reach the most suitable temperature inside for the food. Deliveryman just need to touch the swich to unlock the box and put the food inside. When the box has food in it, the door closes and locks in order to prevent strangers from stealing the food.
 
 ### 2.2.1 Alarm 
 This device has two uses. First, as the delivery man will not knock te door, the user might not notice that the food is ready. When the Face recognition device founds out that there is no one out side the door. Then, the distance sensor checks that there is food in the box. The buzzer will buzz and the light turns on to notify the user that the food is ready and get it.
@@ -64,6 +64,11 @@ automatic lock
 
 ## 3.2 Assessment of Application  
 Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.
+
+## 3.3 Assessment of temperature control
+We record the temperature for several times after the box begin to heat or cool inside, preparing to store the food. The graphs below show how the temperature changes with the time which thus prove the temperature control of the box is effective.
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/%E5%8A%A0%E7%83%AD%E6%9B%B2%E7%BA%BF.png)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/yuchen/%E9%99%8D%E6%B8%A9%E6%9B%B2%E7%BA%BF.png)
 
 # 4.CONCLUSION  
 
