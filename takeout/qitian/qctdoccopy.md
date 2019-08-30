@@ -71,14 +71,14 @@ Basicly, a display. This part of the product can remind the user, when the takeo
 
 # 3.RESULTS AND DISCUSSION  
 ## 3.1 Assessment of Graph  
-<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/back.jpg" width="40%" height="40%"> 
-<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/front.jpg" width="40%" height="40%"> 
-<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/plan_view.jpg" width="40%" height="40%"> 
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/back.jpg" width="35%" height="35%"> 
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/front.jpg" width="35%" height="35%"> 
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/plan_view.jpg" width="35%" height="35%"> 
 Face recognition
-<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/face_recognition.png" width="40%" height="40%"> 
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/face_recognition.png" width="35%" height="35%"> 
 ## 3.2 Assessment of Application  
 Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.  
-![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/ideal_result.png)
+<img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/ideal_result.png" width="90%" height="90%"> 
 
 # 4.CONCLUSION  
 
