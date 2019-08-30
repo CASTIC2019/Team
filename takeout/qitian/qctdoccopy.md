@@ -42,7 +42,7 @@ Our product can mainly be separated into three parts: frame, software, and hardw
 
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/diagram4.jpg)  
 | | Out black | Out red |  |  |  
-| ----|----|----|----|----|
+| ---- | ---- | ---- | ---- | ---- |
 | left | GND | 12v | heating | Red light |    
 | right | 12v | GND | cooling | Green light |  
 ![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/hardware.png)  
