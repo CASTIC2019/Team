@@ -67,7 +67,11 @@ Basicly, a display. This part of the product can remind the user, when the takeo
 
 # 3.RESULTS AND DISCUSSION  
 ## 3.1 Assessment of Graph  
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/front.jpg)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/back.jpg)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/plan_view)
 Face recognition
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/face_recognition)
 automatic lock
 
 ## 3.2 Assessment of Application  
