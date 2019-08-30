@@ -62,9 +62,11 @@ Basicly, a display. This part of the product can remind the user, when the takeo
 
 # 3.RESULTS AND DISCUSSION  
 ## 3.1 Assessment of Graph  
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/back.jpg)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/front.jpg)
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/plan_view.jpg)
 Face recognition
-automatic lock
-
+![Aaron Swartz](https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/face_recognition.png)
 ## 3.2 Assessment of Application  
 Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.
 
