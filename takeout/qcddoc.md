@@ -73,3 +73,6 @@ We record the temperature for several times after the box begin to heat or cool 
 # 4.CONCLUSION  
 
 # 5.BIBLIOGRAPHY   
+[1]Eben Upton, Gareth Halfacree. Raspberry Pi User Guide. Beijing: Renminyoudian Publishing House, 2013.8. ISBN 978-7-115-32367.  
+[2]Simon Monk, Programming the Raspberry Pi: Getting Started with Python. Beijing: Renminyoudian Publishing House, 2017.1 ISBN 978-7-115-44203-1  
+[3]Xie Kainian, Artificial Intelligence And Maker. Shanghai: Shanghai Jiaotong University Publishing House, 2019. IBSN 978-7-313-10319-2  
