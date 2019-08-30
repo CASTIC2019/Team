@@ -77,9 +77,10 @@ Basicly, a display. This part of the product can remind the user, when the takeo
 Face recognition
 <img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/face_recognition.png" width="35%" height="35%"> 
 ## 3.2 Assessment of Application  
-Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.  
 <img src="https://github.com/CASTIC2019/Team/blob/master/takeout/qitian/ideal_result.png" width="90%" height="90%"> 
+We first laid out the ideal outcome of all situations, and tested with the box. We tested if the cooler or heater worked correctly by using a termometer.  
 
+The result appeared to be what we had expected.  
 # 4.CONCLUSION  
 
 # 5.BIBLIOGRAPHY   
